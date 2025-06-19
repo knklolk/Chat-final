@@ -1,5 +1,5 @@
 import streamlit as st
-import groq
+from groq import Groq
 
 MODELOS = ['llama3-8b-8192', 'llama3-70b-8192']
 
