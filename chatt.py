@@ -8,7 +8,7 @@ def configurar_pagina():
     st.title('Bienvenidos')
 
 def crear_cliente_groq():
-    groq_api_key = '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'
+    groq_api_key = 'GROQ_API_KEY'
     return groq.Groq(api_key=groq_api_key)
 
 
